@@ -1,0 +1,86 @@
+2025-09-20 20:48:29,440 - INFO - API Client initialized with Playwright request context.
+2025-09-20 20:48:29,440 - INFO - Starting GET Users test...
+2025-09-20 20:48:29,868 - INFO - GET Users response:
+{
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://reqres.in/img/faces/7-image.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://reqres.in/img/faces/8-image.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://reqres.in/img/faces/9-image.jpg"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://reqres.in/img/faces/10-image.jpg"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://reqres.in/img/faces/11-image.jpg"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://reqres.in/img/faces/12-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Tired of writing endless social media content? Let Content Caddy generate it for you."
+    }
+}
+2025-09-20 20:48:29,868 - INFO - GET Users test completed successfully.
+2025-09-20 20:48:29,873 - INFO - API Client request context disposed.
+2025-09-20 20:48:29,878 - INFO - API Client initialized with Playwright request context.
+2025-09-20 20:48:29,879 - INFO - Starting POST User test...
+2025-09-20 20:48:30,059 - INFO - POST User payload: {'name': 'morpheus', 'job': 'leader'}
+Response:
+{
+    "name": "morpheus",
+    "job": "leader",
+    "id": "956",
+    "createdAt": "2025-09-20T15:18:29.899Z"
+}
+2025-09-20 20:48:30,059 - INFO - POST User test completed successfully.
+2025-09-20 20:48:30,064 - INFO - API Client request context disposed.
+2025-09-20 20:48:30,069 - INFO - API Client initialized with Playwright request context.
+2025-09-20 20:48:30,069 - INFO - Starting PUT User test...
+2025-09-20 20:48:30,389 - INFO - PUT User payload: {'name': 'morpheus', 'job': 'zion resident'}
+Response:
+{
+    "name": "morpheus",
+    "job": "zion resident",
+    "updatedAt": "2025-09-20T15:18:30.225Z"
+}
+2025-09-20 20:48:30,389 - INFO - PUT User test completed successfully.
+2025-09-20 20:48:30,393 - INFO - API Client request context disposed.
+2025-09-20 20:48:30,398 - INFO - API Client initialized with Playwright request context.
+2025-09-20 20:48:30,399 - INFO - Starting DELETE User test...
+2025-09-20 20:48:30,572 - INFO - DELETE request successful with empty response body.
+2025-09-20 20:48:30,577 - INFO - API Client request context disposed.
